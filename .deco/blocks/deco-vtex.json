@@ -1,0 +1,11 @@
+{
+  "__resolveType": "site/apps/deco/vtex.ts",
+  "salesChannel": "3",
+  "defaultSegment": {
+    "channelPrivacy": "public",
+    "channel": "3"
+  },
+  "platform": "vtex",
+  "account": "ewne",
+  "publicUrl": "https://www.ew-ne.com/"
+}
