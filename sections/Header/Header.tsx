@@ -115,26 +115,28 @@ function HeaderDesktop({
           </div>
         </div>
         {/* Barra azul: localização e busca */}
-        <div class="bg-[#323C88] px-12 h-[98px] flex items-center gap-10">
-          <div class="flex items-center gap-2 text-white text-base shrink-0">
-            <Icon id="home_pin" class="w-5 h-5" />
-            <span class="font-bold">My Branch :</span>
-            <span>{branch.name}</span>
-            <span class="text-gray-200">, {branch.address}</span>
+        <div class="bg-[#323C88] px-12 h-[98px]">
+          <div class="flex items-center gap-10 mx-auto max-w-[85rem]">
+            <div class="flex items-center gap-2 text-white text-base shrink-0">
+              <Icon id="home_pin" class="w-5 h-5" />
+              <span class="font-bold">My Branch :</span>
+              <span>{branch.name}</span>
+              <span class="text-gray-200">, {branch.address}</span>
+            </div>
+            <form class="flex w-full max-w-[570px]">
+              <input
+                type="text"
+                placeholder={searchPlaceholder}
+                class="w-full px-4 py-2 rounded-l bg-white text-gray-700 border-none focus:outline-none"
+              />
+              <button
+                type="submit"
+                class="bg-gray-600 px-4 rounded-r flex items-center justify-center"
+              >
+                <Icon id="search" class="w-5 h-5 text-white" />
+              </button>
+            </form>
           </div>
-          <form class="flex w-full max-w-[570px]">
-            <input
-              type="text"
-              placeholder={searchPlaceholder}
-              class="w-full px-4 py-2 rounded-l bg-white text-gray-700 border-none focus:outline-none"
-            />
-            <button
-              type="submit"
-              class="bg-gray-600 px-4 rounded-r flex items-center justify-center"
-            >
-              <Icon id="search" class="w-5 h-5 text-white" />
-            </button>
-          </form>
         </div>
       </header>
     </>
