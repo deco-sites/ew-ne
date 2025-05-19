@@ -149,40 +149,43 @@ function HeaderMobile({
   searchPlaceholder,
 }: Props) {
   return (
-    <header class="w-full">
-      {/* Top bar */}
-      <div class="flex items-center justify-between px-3 py-2 bg-white border-b border-gray-200">
-        <button type="button" class="btn btn-ghost btn-square">
-          <Icon id="menu" class="w-6 h-6" />
-        </button>
-        <a href="/" aria-label="Store logo">
-          <Image
-            src={logo.src}
-            alt={logo.alt}
-            width={logo.width || 100}
-            height={logo.height || 24}
-          />
-        </a>
-        <div class="flex items-center gap-2">
-          <a href="/login" class="btn btn-ghost btn-square">
-            <Icon id="account_circle" class="size-7" />
+    <>
+      <div class="h-[130px] w-full" />
+      <header class="w-full fixed top-0 left-0 right-0 z-50">
+        {/* Top bar */}
+        <div class="flex items-center justify-between px-3 py-2 bg-white border-b border-gray-200">
+          <button type="button" class="btn btn-ghost btn-square">
+            <Icon id="menu" class="w-6 h-6" />
+          </button>
+          <a href="/" aria-label="Store logo">
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              width={logo.width || 100}
+              height={logo.height || 24}
+            />
           </a>
-          <Bag />
+          <div class="flex items-center gap-2">
+            <a href="/login" class="btn btn-ghost btn-square">
+              <Icon id="account_circle" class="size-7" />
+            </a>
+            <Bag />
+          </div>
         </div>
-      </div>
-      {/* Barra de busca */}
-      <div class="bg-white px-3 py-2 flex items-center gap-2 border-b border-gray-100">
-        <Icon id="search" class="w-6 h-6 text-gray-400" />
-        <input
-          type="text"
-          placeholder={searchPlaceholder}
-          class="flex-1 px-2 py-1 bg-transparent text-gray-700 border-none focus:outline-none"
-        />
-        <button type="button" class="btn btn-ghost btn-square">
-          <Icon id="pan_zoom" class="w-6 h-6 text-gray-400" />
-        </button>
-      </div>
-    </header>
+        {/* Barra de busca */}
+        <div class="bg-white px-3 py-2 flex items-center gap-2 border-b border-gray-100">
+          <Icon id="search" class="w-6 h-6 text-gray-400" />
+          <input
+            type="text"
+            placeholder={searchPlaceholder}
+            class="flex-1 px-2 py-1 bg-transparent text-gray-700 border-none focus:outline-none"
+          />
+          <button type="button" class="btn btn-ghost btn-square">
+            <Icon id="pan_zoom" class="w-6 h-6 text-gray-400" />
+          </button>
+        </div>
+      </header>
+    </>
   );
 }
 
