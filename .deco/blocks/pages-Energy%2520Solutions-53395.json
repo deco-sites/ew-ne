@@ -1,0 +1,261 @@
+{
+  "name": "Energy Solutions",
+  "path": "/w/specialty-teams/energy-solutions",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Content/BannerWithBreadcrumb.tsx",
+      "background": {
+        "preload": true,
+        "desktop": {
+          "src": "https://assets.decocache.com/ew-ne/50c91512-9c12-4d79-aaae-fbaefe086482/WireSolutionBanner.webp",
+          "alt": "Wire solutions",
+          "width": 1440,
+          "height": 311
+        },
+        "mobile": {
+          "src": "https://assets.decocache.com/ew-ne/50c91512-9c12-4d79-aaae-fbaefe086482/WireSolutionBanner.webp",
+          "alt": "Wire solutions",
+          "width": 430,
+          "height": 281
+        }
+      },
+      "title": "Wire Solutions",
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Solution",
+          "href": "#"
+        },
+        {
+          "label": "Wire Solutions"
+        }
+      ],
+      "overlay": {
+        "opacity": 50,
+        "color": "#000000"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/TextWithMedia.tsx",
+      "content": "<p><strong><span style=\"color: #2c3384; font-size: 22pt\">Wire Solutions in New England</span></strong></p><p>Electrical Wholesalers offers complete wire prefabrication services in New England. We can fully customize wire and cable to meet your exact job specifications. Our wire solutions leverage <strong><span style=\"color: rgb(32, 42, 109)\">Southwire’s SIMpull™ Solutions </span></strong>and include cutting, stripping, twisting, identification, and labeling. Our wire experts will assist you with selecting the products and configurations that best suit your project needs.<br>We prefabricate and deliver project-ready products so that your crew can avoid cutting, configuring, or stripping wire on-site. This includes twisted or paired wires and cut and stripped wires in all gauge sizes. We offer larger sizes that are available upon request. Contact Electrical Wholesalers to place your wiring order. Let us help you with your upcoming project today!</p>",
+      "media": {
+        "type": "image",
+        "src": "https://assets.decocache.com/ew-ne/e3e604bc-4234-4ecb-b36b-ed6d5f2e0736/simPullTruck.webp",
+        "alt": "Sim pull truck",
+        "width": 484,
+        "height": 387
+      },
+      "contentSide": {
+        "desktop": "Text on left",
+        "mobile": "Text on top"
+      },
+      "mobileOrder": "bottom"
+    },
+    {
+      "__resolveType": "site/sections/Content/TextListCard.tsx",
+      "title": "Wire Services We Offer",
+      "description": "<p><span style=\"color: rgb(102, 102, 102); font-size: 15px\">Our </span><strong><span style=\"color: rgb(32, 42, 109); font-size: 15px\">RTI (Ready To Install) facility </span></strong><span style=\"color: rgb(102, 102, 102); font-size: 15px\">is fully equipped with advanced equipment and technology to accommodate your custom prefab assembly needs. We offer a variety of wire solutions in New England including:</span></p>",
+      "items": [
+        "Wire Cutting",
+        "Wire identification & labeling",
+        "MC/Flex Whips",
+        "Wire management",
+        "Residential, Commercial, Industrial",
+        "Wire pairing",
+        "Wire & cable pulling",
+        "SIMpull solutions",
+        "Colored wire feeders",
+        "Prepared wire & cable"
+      ],
+      "contentAlignment": "Right",
+      "background": {
+        "desktop": {
+          "alt": "wire banner",
+          "src": "https://assets.decocache.com/ew-ne/2359c777-1249-4bd8-8113-81a552df4328/wireBanner.webp"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/TextWithMedia.tsx",
+      "content": "<p><strong><span style=\"color: #2c3384; font-size: 22pt\">Introducing Southwire SIMpull Solutions™</span></strong></p><p></p><p>Decrease your installation time and improve job site safety with Southwire’s SIMpull™ Solutions. These products are designed to increase Jobsite productivity, safety, and profitability.<br><br>You can custom order your wiring so any cable or wire we manufacture is delivered inside the conduit. This added step reduces cable damage during installation and eliminates exposure to environmental conditions. Our SIMpull™ solutions include</p>",
+      "media": {
+        "type": "video",
+        "alt": "Sim pull truck",
+        "thumbnail": "https://assets.decocache.com/ew-ne/d3464cbe-5b70-4dfc-87c4-57438f11db04/wirePullingImg.webp",
+        "embedId": "https://www.youtube.com/watch?v=ezvhIe72SQg",
+        "url": "https://www.youtube.com/watch?v=ezvhIe72SQg"
+      },
+      "contentSide": {
+        "desktop": "Text on left",
+        "mobile": "Text on top"
+      },
+      "mobileOrder": "bottom"
+    },
+    {
+      "__resolveType": "site/sections/Content/CardsGrid.tsx",
+      "cards": [
+        {
+          "image": {
+            "src": "https://ewne.vtexassets.com/arquivos/simPullCable.jpg",
+            "alt": "SIMpull™ Reel Maneuverable Payoff System",
+            "width": 520,
+            "height": 305
+          },
+          "title": "SIMpull™ Reel Maneuverable Payoff System",
+          "description": "The SIMpull™ Reel Maneuverable Payoff System revolutionizes the job site by allowing one person to safely* move a reel that weighs up to 6,000 lbs. without the need of pallet jacks or other equipment."
+        },
+        {
+          "image": {
+            "src": "https://ewne.vtexassets.com/arquivos/flange.jpg",
+            "alt": "SIMpull™ Flange",
+            "width": 520,
+            "height": 305
+          },
+          "title": "SIMpull™ Flange",
+          "description": "SIMpull™ Flange has a shaftless design that safely allows one person to turn a wooden reel up to 34\" and 2,000 lbs on level floors. It's a time-saving, field-installable solution that removes the need for heavy jack stands."
+        },
+        {
+          "image": {
+            "src": "https://ewne.vtexassets.com/arquivos/pullingHeads.jpg",
+            "alt": "SIMpull™ Head",
+            "width": 520,
+            "height": 305
+          },
+          "title": "SIMpull™ Head",
+          "description": "SIMpull™ Head features a low-profile design to glide easily through bends and tight turns with no lubrication. The wire is ready to pull as soon as it is delivered, saving you time and labor on your job site and reducing waste."
+        },
+        {
+          "image": {
+            "src": "https://ewne.vtexassets.com/arquivos/SimPullReels.jpg",
+            "alt": "SIMpull™ Truck",
+            "width": 520,
+            "height": 305
+          },
+          "title": "SIMpull™ Truck",
+          "description": "SIMpull™ Truck is a faster, cleaner, safer way to enhance productivity and lower total installation costs by eliminating various forms of waste such as excess cost, time, and labor and improving productivity, making you more competitive."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/TextWithVideoList.tsx",
+      "title": "Cable-in-Conduit",
+      "description": "<p>SIMpull™ Cable-in-Conduit provides easy installation, which reduces equipment costs and the amount of time you spend installing products. Safety is drastically improved since you spend less opening trenches, along traffic right-of-ways, and pulling heavy cables.</p><p style=\"text-align: center\">Cable-in-Conduit is available in copper and aluminum conductors and low-voltage to medium-voltage constructions. It is available in a variety of conduit sizes. There is no gluing of sticks to the pipe. Plus, the high-density polyethylene conduit meets ASTM and UL standards.</p>",
+      "videos": [
+        {
+          "thumbnail": {
+            "src": "https://assets.decocache.com/ew-ne/2374c9f3-e460-45b8-8387-625dffc9f8ab/southwire.webp",
+            "alt": "Southwire",
+            "width": 264,
+            "height": 202
+          },
+          "youtubeUrl": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+        },
+        {
+          "thumbnail": {
+            "src": "https://assets.decocache.com/ew-ne/4f8e5582-fd21-4893-b7d0-b32fd8462ca6/coilPak.webp",
+            "alt": "Coil PAK",
+            "width": 264,
+            "height": 202
+          },
+          "youtubeUrl": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+        },
+        {
+          "thumbnail": {
+            "src": "https://assets.decocache.com/ew-ne/6a096688-924e-41fc-a861-f7e89efa4011/colorSouthWire.webp",
+            "alt": "colorSouthWire",
+            "width": 264,
+            "height": 202
+          },
+          "youtubeUrl": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+        },
+        {
+          "thumbnail": {
+            "src": "https://assets.decocache.com/ew-ne/800f408e-0d6e-42e7-8f05-3f2de527adb4/grayCoilPak.webp",
+            "alt": "grayCoilPak",
+            "width": 264,
+            "height": 202
+          },
+          "youtubeUrl": "https://www.youtube.com/watch?v=XHOmBV4js_E"
+        }
+      ],
+      "backgroundColor": "#f0f0f0"
+    },
+    {
+      "__resolveType": "site/sections/Content/Benefits.tsx",
+      "title": "Benefits of Wire Prefabrication",
+      "backgroundColor": "#FFFfff",
+      "benefits": [
+        {
+          "icon": "jobWatch",
+          "description": "Prefabs can cut your installation time in half. You no longer have to take the time to prep the wiring yourself. Therefore, your crew can focus on core tasks. When you reduce your job duration, you can quickly move on to the next project.",
+          "title": "Shorter Job Duration"
+        },
+        {
+          "icon": "laborCost",
+          "title": "Reduced Labor Costs",
+          "description": "Prefabs can cut your installation time in half. You no longer have to take the time to prep the wiring yourself. Therefore, your crew can focus on core tasks. When you reduce your job duration, you can quickly move on to the next project."
+        },
+        {
+          "icon": "lessWaste",
+          "title": "Less Waste",
+          "description": "Prepping wire on-site can lead to a significant amount of waste. Much of the waste ends up in landfills. You can nearly eliminate waste altogether by having your wiring prefabricated to exact specifications. Reduced waste saves you money in materials and cleanup"
+        },
+        {
+          "icon": "workflow",
+          "title": "Smoother Workflow",
+          "description": "Every time you have to stop and cut wire, you disrupt what would otherwise be a smooth workflow. Prepping wire can cause delays, which ultimately cost you time and money. Job-ready wiring can prevent these disruptions, allowing you to work continuously until job completion."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/Solutions.tsx",
+      "title": "Our Solutions",
+      "description": "Each of our wire solutions is designed to save you money, reduce installation time, and improve job site safety. Contact Electrical Warehouse today when you need help with the following services or resources:",
+      "backgroundColor": "#f5f5f5",
+      "cards": [
+        {
+          "title": "Education & Awareness",
+          "items": [
+            "Discover new solutions and workflow possibilities.",
+            "Integrate products, services, and planning tools.",
+            "Execute pre-con planning, timing, and impact for maximum efficiency."
+          ]
+        },
+        {
+          "title": "Pre-Con Planning",
+          "items": [
+            "Discover new solutions and workflow possibilities.",
+            "Integrate products, services, and planning tools.",
+            "Execute pre-con planning, timing, and impact for maximum efficiency."
+          ]
+        },
+        {
+          "title": "Execution Support",
+          "items": [
+            "Receive materials on time based on pre-con planning.",
+            "Get the right support at the right time.",
+            "Take advantage of field training and solution execution checklists."
+          ]
+        },
+        {
+          "title": "Improvement & Extending",
+          "items": [
+            "Continue to optimize solutions for compounded benefits.",
+            "Increase safety, productivity, and profitability.",
+            "Reduce the learning curve and close execution gaps."
+          ]
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

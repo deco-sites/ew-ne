@@ -9,12 +9,6 @@ const onLoad = (id: string) =>
     if (!counter) {
       return;
     }
-    // Set minicart items count on header
-    if (count === 0) {
-      counter.classList.add("hidden");
-    } else {
-      counter.classList.remove("hidden");
-    }
     counter.innerText = count > 9 ? "9+" : count.toString();
   });
 function Bag() {
@@ -24,7 +18,7 @@ function Bag() {
       <label class="indicator" for={MINICART_DRAWER_ID} aria-label="open cart">
         <span
           id={id}
-          class="hidden indicator-item badge badge-primary badge-sm font-thin"
+          class="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center"
         />
 
         <span class="btn btn-square btn-sm btn-ghost no-animation">
