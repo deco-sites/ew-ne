@@ -116,7 +116,7 @@ function HeaderDesktop({
         </div>
         {/* Barra azul: localização e busca */}
         <div class="bg-[#323C88] px-12 h-[98px]">
-          <div class="flex items-center gap-10 mx-auto max-w-[85rem]">
+          <div class="flex items-center gap-10 mx-auto max-w-[85rem] h-full">
             <div class="flex items-center gap-2 text-white text-base shrink-0">
               <Icon id="home_pin" class="w-5 h-5" />
               <span class="font-bold">My Branch :</span>
